@@ -11,7 +11,7 @@
 #### 安装
 
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://github.com/Dnyo666/Qxml-Yunzai-js/blob/main/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://github.com/Dnyo666/Qxml-Yunzai-js/main/自动处理进群事件v2.7.js"
 ```
 
 #### 简介
@@ -33,7 +33,7 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://github.com/
 |[飞舞]() | 负责了进群事件js的修改 |
 |[浅巷墨黎](https://github.com/dnyo666) | 主要负责人 |
 |[一只哒]() | 提供了js意见 |
-|[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 进群时间js的源代码作者 |
+|[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 进群事件js的源代码作者 |
 --- 
 
 # 关于我
