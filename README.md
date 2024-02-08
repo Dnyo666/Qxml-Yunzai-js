@@ -4,7 +4,7 @@
 
 ## 目录
 
-[自动处理进群事件](https://gitee.com/HanaHimeUnica/yzjs#本库插件一键安装)
+[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js#自动处理进群事件V2.7.js)
 
 ### 自动处理进群事件V2.7.js
 
