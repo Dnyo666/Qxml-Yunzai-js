@@ -1,14 +1,5 @@
 # Qxml-Yunzai-Bot JS合集
 
-## 介绍
-
-有帮助的话点个star哦!你的支持是我最大的动力 
-
-<a href='https://gitee.com/HanaHimeUnica/yzjs'><img src='https://gitee.com/HanaHimeUnica/yzjs/widgets/widget_3.svg' alt='Fork me on Gitee'></img></a>
-
-<a href='https://gitee.com/HanaHimeUnica/yzjs/stargazers'><img src='https://gitee.com/HanaHimeUnica/yzjs/badge/star.svg?theme=dark' alt='star'></img></a>
-<a href='https://gitee.com/HanaHimeUnica/yzjs/members'><img src='https://gitee.com/HanaHimeUnica/yzjs/badge/fork.svg?theme=dark' alt='fork'></img></a>
-
 ---
 
 ## 目录
