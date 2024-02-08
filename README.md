@@ -36,7 +36,7 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
 ## 致谢
 | Nickname                                                     | Contribution                        |
 | :----------------------------------------------------------: | ----------------------------------- |
-|[飞舞]() | 负责了进群事件js的修改 |
+|[飞舞](https://github.com/Catrong) | 负责了进群事件js的修改 |
 |[浅巷墨黎](https://github.com/dnyo666) | 主要负责人 |
 |[一只哒]() | 提供了js意见 |
 |[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 进群事件js的源代码作者 |
