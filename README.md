@@ -11,7 +11,7 @@
 #### 安装
 
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://github.com/Dnyo666/Qxml-Yunzai-js/main/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/自动处理进群事件v2.7.js"
 ```
 
 #### 简介
