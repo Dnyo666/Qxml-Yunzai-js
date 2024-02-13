@@ -11,7 +11,7 @@ import plugin from '../../lib/plugins/plugin.js';
 
 //在此处输入需要判断的问题 例如const wenti = `你是不是内鬼？`
 const wenti = `你是不是内鬼？`
-//在此处输入正确答案 例如const daan = `不是`
+//在此处输入正确答案 例如const ans = `不是`
 const ans = [`是`, `不是`]
 //在此处输入处理的群号 例如const groupid = `123456789`
 const groupid = [`123456789`, `111111111`]
