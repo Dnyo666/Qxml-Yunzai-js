@@ -13,11 +13,11 @@
 ##### Github
 
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/自动处理进群事件v2.7.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v2.7.js"
 ```
 
 #### 简介
@@ -27,8 +27,56 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
 #### 效果图
 
   <br>
-    <img src="./1.png" width="30%" height="20%">
-    <img src="./2.png" width="50%" height="20%">
+    <img src="./img/1.png" width="40%" height="20%">
+    <img src="./img/2.png" width="30%" height="20%">
+
+### mc服务器列表V2.1.js
+
+#### 安装
+
+##### Github
+
+```
+curl -o "./plugins/example/mc服务器列表V2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.1.js"
+```
+##### Gitee
+```
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.1.js"
+```
+
+#### 简介&使用
+
+在一个群里面添加多个Minecraft服务器地址，并可以通过#mclist列出他们的在线情况
+
+发送#mcadd [服务器ip] [描述] 即可添加服务器，发送#mclist即可列出服务器在线状态
+
+#### 效果图
+
+  <br>
+    <img src="./img/mc-1.png" width="30%" height="20%">
+
+### KimiV2.1.js
+
+#### 安装
+
+##### Github
+
+```
+curl -o "./plugins/example/mc服务器列表V2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/KimiV2.1.js"
+```
+##### Gitee
+```
+curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/KimiV2.1.js"
+```
+
+#### 简介&使用
+
+发送#kimi[对话内容]即可进行（有记忆），发送#结束对话将结束本次长对话-需自行替换文件中的sk
+
+#### 效果图
+
+  <br>
+    <img src="./img/kimi-1.png" width="30%" height="20%">
 
 ---
 
