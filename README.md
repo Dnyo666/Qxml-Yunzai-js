@@ -45,7 +45,7 @@ curl -o "./plugins/example/mc服务器列表V2.1.js" "https://raw.githubusercont
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.1.js"
+curl -o "./plugins/example/mc服务器列表V2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.1.js"
 ```
 
 #### 简介&使用
@@ -66,11 +66,11 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
 ##### Github
 
 ```
-curl -o "./plugins/example/mc服务器列表V2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/KimiV2.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/KimiV2.1.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/KimiV2.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/KimiV2.1.js"
 ```
 
 #### 简介&使用
