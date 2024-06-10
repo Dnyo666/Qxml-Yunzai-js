@@ -70,11 +70,11 @@ curl -o "./plugins/example/mc服务器列表V2.1.js" "https://gitee.com/Dnyo666/
 ##### Github
 
 ```
-curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/KimiV2.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/KimiV2.2.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/KimiV2.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/KimiV2.2.js"
 ```
 
 #### 简介&使用
