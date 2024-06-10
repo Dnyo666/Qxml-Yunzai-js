@@ -4,11 +4,15 @@
 
 ## 目录
 
-[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js#自动处理进群事件V2.7.js)
+[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/js#自动处理进群事件V2.7.js)
 
-[mc服务器列表V2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js#mc服务器列表V2.1.js)
+[mc服务器列表V2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#mc服务器列表V2.1.js)
 
-[KimiV2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js#KimiV2.1.js)
+[KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#KimiV2.1.js)
+
+[glmV7.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#glmV7.1.js)
+
+[百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#百词斩V3.1.js)
 
 ### 自动处理进群事件V2.7.js
 
@@ -75,12 +79,59 @@ curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-j
 
 #### 简介&使用
 
-发送#kimi[对话内容]即可进行（有记忆），发送#结束对话将结束本次长对话-需自行替换文件中的sk
+发送#kimi[对话内容]即可进行（有记忆），发送#结束kimi对话将结束本次长对话-需自行替换文件中的sk
 
 #### 效果图
 
   <br>
     <img src="./img/kimi-1.png" width="30%" height="20%">
+
+### glmV7.1.js
+
+#### 安装
+
+##### Github
+
+```
+curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/glmV7.1.js"
+```
+##### Gitee
+```
+curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/glmV7.1.js"
+```
+
+#### 简介&使用
+
+发送#glm[对话内容]即可进行（有记忆），发送#结束glm对话将结束本次长对话-需自行替换文件中的API Key（悄悄说一下，glm模型可以联网）
+
+#### 效果图
+
+  <br>
+    <img src="./img/glm-1.png" width="40%" height="30%">
+    <img src="./img/glm-2.png" width="40%" height="30%">
+
+### 百词斩V3.1.js
+
+#### 安装
+
+##### Github
+
+```
+curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/百词斩V3.1.js"
+```
+##### Gitee
+```
+curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/百词斩V3.1.js"
+```
+
+#### 简介&使用
+
+发送#查词[单词]即可查询单词，同时获取朗读音频，命令有：#查词、#百词斩、#bcz
+
+#### 效果图
+
+  <br>
+    <img src="./img/bcz-1.png" width="40%" height="30%">
 
 ---
 
@@ -88,10 +139,10 @@ curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-j
 ## 致谢
 | Nickname                                                     | Contribution                        |
 | :----------------------------------------------------------: | ----------------------------------- |
-|[飞舞](https://github.com/Catrong) | 负责了进群事件js的修改 |
-|[浅巷墨黎](https://github.com/dnyo666) | 主要负责人 |
-|[一只哒]() | 提供了js意见 |
-|[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 进群事件js的源代码作者 |
+|[浅巷墨黎](https://github.com/dnyo666) | 百词斩、glm、Kimi、mc服务器列表-插件作者 |
+|[飞舞](https://github.com/Catrong) | 自动处理进群事件v2.7.js-插件修改 |
+|[一只哒]() | 提供了自动处理进群事件v2.7.js意见 |
+|[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 自动处理进群事件v2.7.js、kimi、glm（来源于他的通义千问）的源代码作者 |
 --- 
 
 # 关于我

@@ -2,9 +2,9 @@ import fetch from "node-fetch";
 import fs from 'fs';
 
 /**
- * 作者：千奈千祁(2632139786)
- * Gitee主页：Gitee.com/QianNQQ
- * Github主页：Github.com/QianNQQ
+ * 作者：浅巷墨黎(2315823357)
+ * Gitee主页：https://gitee.com/Dnyo666
+ * Github主页：https://github.com/Dnyo666
  * 
  * 该插件所有版本发布于 该仓库(https://gitee.com/qiannqq/yunzai-plugin-JS) 
  * 本插件及该仓库的所有插件均遵循 GPL3.0 开源协议
