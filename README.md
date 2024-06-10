@@ -14,7 +14,7 @@
 
 [百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#百词斩V3.1.js)
 
-### 自动处理进群事件V2.7.js
+### #自动处理进群事件V2.7.js
 
 #### 安装
 
@@ -38,7 +38,7 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
     <img src="./img/1.png" width="40%" height="20%">
     <img src="./img/2.png" width="30%" height="20%">
 
-### mc服务器列表V2.1.js
+### #mc服务器列表V2.1.js
 
 #### 安装
 
@@ -63,7 +63,7 @@ curl -o "./plugins/example/mc服务器列表V2.1.js" "https://gitee.com/Dnyo666/
   <br>
     <img src="./img/mc-1.png" width="30%" height="20%">
 
-### KimiV2.1.js
+### #KimiV2.2.js
 
 #### 安装
 
@@ -86,7 +86,7 @@ curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-j
   <br>
     <img src="./img/kimi-1.png" width="30%" height="20%">
 
-### glmV7.1.js
+### #glmV7.1.js
 
 #### 安装
 
@@ -110,7 +110,7 @@ curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-j
     <img src="./img/glm-1.png" width="40%" height="30%">
     <img src="./img/glm-2.png" width="40%" height="30%">
 
-### 百词斩V3.1.js
+### #百词斩V3.1.js
 
 #### 安装
 
