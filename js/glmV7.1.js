@@ -2,10 +2,16 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import common from '../../lib/common/common.js'; // 确保common模块路径正确
 
-// 插件作者信息
-const author = '浅巷墨黎(2315823357)';
-const giteeHomepage = 'https://gitee.com/Dnyo666';
-const githubHomepage = 'https://github.com/Dnyo666';
+/**
+ * 作者：浅巷墨黎(2315823357)
+ * Gitee主页：https://gitee.com/Dnyo666
+ * Github主页：https://github.com/Dnyo666
+ * 
+ * 该插件所有版本发布于 该仓库(https://gitee.com/qiannqq/yunzai-plugin-JS) 
+ * 本插件及该仓库的所有插件均遵循 GPL3.0 开源协议
+ * 
+ * 请勿使用本插件进行盈利等商业活动行为
+ */
 
 // 插件配置信息
 const ZHIPUAI_API_KEY = 'API Key'; // 替换为您的实际API Key
