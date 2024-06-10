@@ -4,15 +4,15 @@
 
 ## 目录
 
-[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/js#自动处理进群事件V2.7.js)
+[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.7.js)
 
-[mc服务器列表V2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#mc服务器列表V2.1.js)
+[mc服务器列表V2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.1.js)
 
-[KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#KimiV2.1.js)
+[KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#KimiV2.1.js)
 
-[glmV7.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#glmV7.1.js)
+[glmV7.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#glmV7.1.js)
 
-[百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/js#百词斩V3.1.js)
+[百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.1.js)
 
 ### #自动处理进群事件V2.7.js
 
