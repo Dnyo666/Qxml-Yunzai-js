@@ -10,7 +10,7 @@
 
 [KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#KimiV2.1.js)
 
-[glmV7.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#glmV7.1.js)
+[glmV7.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#glmV7.2.js)
 
 [百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.1.js)
 
@@ -86,18 +86,18 @@ curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-j
   <br>
     <img src="./img/kimi-1.png" width="30%" height="20%">
 
-### #glmV7.1.js
+### #glmV7.2.js
 
 #### 安装
 
 ##### Github
 
 ```
-curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/glmV7.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/glmV7.2.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/glmV7.1.js"
+curl -o "./plugins/example/KimiV2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/glmV7.2.js"
 ```
 
 #### 简介&使用
