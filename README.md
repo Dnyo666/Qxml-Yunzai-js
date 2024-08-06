@@ -38,7 +38,7 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
     <img src="./img/1.png" width="40%" height="20%">
     <img src="./img/2.png" width="30%" height="20%">
 
-### #mc服务器列表V2.1.js
+### #mc服务器列表V2.3.js
 
 #### 安装
 
