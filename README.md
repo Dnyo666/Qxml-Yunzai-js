@@ -6,7 +6,7 @@
 
 [自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.7.js)
 
-[mc服务器列表V2.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.1.js)
+[mc服务器列表V2.3.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.3.js)
 
 [KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#KimiV2.1.js)
 
@@ -45,18 +45,20 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
 ##### Github
 
 ```
-curl -o "./plugins/example/mc服务器列表V2.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.1.js"
+curl -o "./plugins/example/mc服务器列表V2.3.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.3.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/mc服务器列表V2.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.1.js"
+curl -o "./plugins/example/mc服务器列表V2.3.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.3.js"
 ```
 
 #### 简介&使用
 
-在一个群里面添加多个Minecraft服务器地址，并可以通过#mclist列出他们的在线情况
+在一个群里面添加多个Minecraft服务器地址，并可以通过#mclist列出他们的在线情况及ID描述
 
-发送#mcadd [服务器ip] [描述] 即可添加服务器，发送#mclist即可列出服务器在线状态
+发送#mcadd [名称] [地址:端口] [描述] 即可添加服务器，发送#mclist即可列出服务器在线状态（大于五条时，将会进行转发）
+
+发送#mcdel [ID] 即可删除服务器
 
 #### 效果图
 
