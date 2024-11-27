@@ -4,7 +4,7 @@
 
 ## 目录
 
-[自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.7.js)
+[自动处理进群事件V2.9](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.9.js)
 
 [mc服务器列表V2.4.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.4.js)
 
@@ -14,23 +14,23 @@
 
 [百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.1.js)
 
-### #自动处理进群事件V2.7.js
+### #自动处理进群事件V2.9.js
 
 #### 安装
 
 ##### Github
 
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.9.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/自动处理进群事件v2.9.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v2.7.js"
+curl -o "./plugins/example/自动处理进群事件v2.9.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v2.9.js"
 ```
 
 #### 简介
 
-用于多个群管理多个答案自动判断进群
+用于多个群管理多个答案自动判断进群，以及是否开启等级限制
 
 #### 效果图
 
