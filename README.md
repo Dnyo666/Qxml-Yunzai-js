@@ -6,7 +6,7 @@
 
 [自动处理进群事件](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.7.js)
 
-[mc服务器列表V2.3.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.3.js)
+[mc服务器列表V2.4.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.4.js)
 
 [KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#KimiV2.1.js)
 
@@ -38,18 +38,18 @@ curl -o "./plugins/example/自动处理进群事件v2.7.js" "https://gitee.com/D
     <img src="./img/1.png" width="40%" height="20%">
     <img src="./img/2.png" width="30%" height="20%">
 
-### #mc服务器列表V2.3.js
+### #mc服务器列表V2.4.js
 
 #### 安装
 
 ##### Github
 
 ```
-curl -o "./plugins/example/mc服务器列表V2.3.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.3.js"
+curl -o "./plugins/example/mc服务器列表V2.4.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.4.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/mc服务器列表V2.3.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.3.js"
+curl -o "./plugins/example/mc服务器列表V2.4.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc服务器列表V2.4.js"
 ```
 
 #### 简介&使用
@@ -59,6 +59,8 @@ curl -o "./plugins/example/mc服务器列表V2.3.js" "https://gitee.com/Dnyo666/
 发送#mcadd [名称] [地址:端口] [描述] 即可添加服务器，发送#mclist即可列出服务器在线状态（大于五条时，将会进行转发）
 
 发送#mcdel [ID] 即可删除服务器
+
+发送#mcol 即可查询当前群聊服务器在线玩家名
 
 #### 效果图
 

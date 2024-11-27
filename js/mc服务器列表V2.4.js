@@ -7,7 +7,7 @@ import common from '../../lib/common/common.js'; // 导入common模块，用于�
 
 /**
  * 作者：浅巷墨黎
- * 鸣谢：Motd插件、Tloml、飞舞
+ * 鸣谢：Motd插件、Tloml、飞舞、@koishi-plugin-mcplayerlist
  * Gitee：https://gitee.com/Dnyo666
  * Github:https://github.com/Dnyo666
  * 个人博客：blog.qxml.ltd
@@ -55,6 +55,10 @@ export class McServer extends plugin {
                 {
                     reg: '^#mcdel\\s+\\d+$', // 匹配#mcdel命令，后接一个ID，删除服务器
                     fnc: 'deleteAlias'
+                },
+                {
+                    reg: '^#mcol$', // 匹配#mcol命令，查询在线玩家
+                    fnc: 'getOnlinePlayers'
                 }
             ]
         });
@@ -115,33 +119,32 @@ export class McServer extends plugin {
 
     async getServersStatus(e) {
         try {
-            // 读取现有的别名数据
             let alias = JSON.parse(fs.readFileSync(aliasFilePath, 'utf-8'));
             const groupServers = alias[e.group_id];
 
-            // 检查该群是否有储存的服务器
             if (!groupServers || groupServers.length === 0) {
                 e.reply('该群没有储存的服务器,请管理员使用"#mcadd [名称] [地址:端口] [描述]"进行添加');
                 return;
             }
 
-            // 获取每个服务器的状态
             const statusList = await Promise.all(
                 groupServers.map(async (serverInfo) => {
-                    const res = await fetch(`https://api.mcstatus.io/v2/status/java/${encodeURIComponent(serverInfo.address)}`);
-                    const data = await res.json();
-                    const status = data.online ? '在线🟢' : '离线🔴';
+                    try {
+                        const res = await fetch(`https://api.mcstatus.io/v2/status/java/${encodeURIComponent(serverInfo.address)}`);
+                        const data = await res.json();
+                        const status = data.online ? '在线🟢' : '离线🔴';
 
-                    return `ID: ${serverInfo.id}\n名称: ${serverInfo.name}\n地址: [${serverInfo.address}]\n描述: ${serverInfo.description}\n状态: ${status}`;
+                        return `ID: ${serverInfo.id}\n名称: ${serverInfo.name}\n地址: [${serverInfo.address}]\n描述: ${serverInfo.description}\n状态: ${status}`;
+                    } catch (error) {
+                        return `ID: ${serverInfo.id}\n名称: ${serverInfo.name}\n地址: [${serverInfo.address}]\n描述: ${serverInfo.description}\n状态: 离线🔴`;
+                    }
                 })
             );
 
-            // 如果服务器数量大于等于5，使用转发功能
             if (statusList.length >= 5) {
                 await this.sendForwardMsg(e, statusList);
             } else {
-                // 否则，正常回复
-                e.reply(statusList.join('\n\n')); // 使用双换行分隔服务器状态信息
+                e.reply(statusList.join('\n\n'));
             }
         } catch (error) {
             console.error('获取服务器状态时发生错误:', error);
@@ -217,6 +220,62 @@ export class McServer extends plugin {
             await e.reply(msg);
         } catch (error) {
             logger.error('转发消息时发生错误:', error)
+        }
+    }
+
+    // 添加新方法
+    async getOnlinePlayers(e) {
+        try {
+            let alias = JSON.parse(fs.readFileSync(aliasFilePath, 'utf-8'));
+            const groupServers = alias[e.group_id];
+
+            if (!groupServers || groupServers.length === 0) {
+                e.reply('该群没有储存的服务器,请管理员使用"#mcadd [名称] [地址:端口] [描述]"进行添加');
+                return;
+            }
+
+            let totalPlayers = 0;
+            const playersList = await Promise.all(
+                groupServers.map(async (serverInfo) => {
+                    try {
+                        const res = await fetch(`https://api.mcstatus.io/v2/status/java/${encodeURIComponent(serverInfo.address)}`);
+                        const data = await res.json();
+                        
+                        if (!data.online) {
+                            return {
+                                message: `服务器: ${serverInfo.name}\n状态: 离线🔴`,
+                                playerCount: 0
+                            };
+                        }
+
+                        const players = data.players.list || [];
+                        const playerNames = players.map(player => player.name_clean).join('\n');
+                        totalPlayers += players.length;
+                        
+                        return {
+                            message: `服务器: ${serverInfo.name}\n状态: 在线🟢\n在线人数: ${data.players.online}/${data.players.max}\n在线玩家:\n${playerNames || '暂无玩家在线'}`,
+                            playerCount: players.length
+                        };
+                    } catch (error) {
+                        // 如果单个服务器查询失败，返回离线状态
+                        return {
+                            message: `服务器: ${serverInfo.name}\n状态: 离线🔴`,
+                            playerCount: 0
+                        };
+                    }
+                })
+            );
+
+            const needForward = playersList.some(server => server.playerCount > 10) || totalPlayers > 15;
+
+            if (needForward) {
+                await this.sendForwardMsg(e, playersList.map(server => server.message));
+            } else {
+                e.reply(playersList.map(server => server.message).join('\n\n'));
+            }
+        } catch (error) {
+            console.error('获取在线玩家时发生错误:', error);
+            e.reply('获取在线玩家失败，请稍后再试或联系管理员。');
         }
     }
 }
