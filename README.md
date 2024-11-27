@@ -12,7 +12,7 @@
 
 [glmV7.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#glmV7.2.js)
 
-[百词斩V3.1.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.1.js)
+[百词斩V3.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.2.js)
 
 ### #自动处理进群事件V2.9.js
 
@@ -114,18 +114,18 @@ curl -o "./plugins/example/glmV7.2.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js
     <img src="./img/glm-1.png" width="40%" height="30%">
     <img src="./img/glm-2.png" width="40%" height="30%">
 
-### #百词斩V3.1.js
+### #百词斩V3.2.js
 
 #### 安装
 
 ##### Github
 
 ```
-curl -o "./plugins/example/百词斩V3.1.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/百词斩V3.1.js"
+curl -o "./plugins/example/百词斩V3.2.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/百词斩V3.2.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/百词斩V3.1.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/百词斩V3.1.js"
+curl -o "./plugins/example/百词斩V3.2.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/百词斩V3.2.js"
 ```
 
 #### 简介&使用
