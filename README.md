@@ -4,15 +4,17 @@
 
 ## 目录
 
-[自动处理进群事件V2.9](https://github.com/Dnyo666/Qxml-Yunzai-js/#自动处理进群事件V2.9.js)
+[自动处理进群事件V2.9](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E8%BF%9B%E7%BE%A4%E4%BA%8B%E4%BB%B6v29js)
 
-[mc服务器列表V2.4.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#mc服务器列表V2.4.js)
+[mc服务器列表V2.4.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%97%E8%A1%A8v24js)
 
-[KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#KimiV2.1.js)
+[mc正版用户名验证进群](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#mc正版用户名验证进群.js)
 
-[glmV7.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#glmV7.2.js)
+[KimiV2.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#kimiv22js)
 
-[百词斩V3.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js/#百词斩V3.2.js)
+[glmV7.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#glmv72js)
+
+[百词斩V3.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#%E7%99%BE%E8%AF%8D%E6%96%A9v32js)
 
 ### #自动处理进群事件V2.9.js
 
@@ -66,6 +68,30 @@ curl -o "./plugins/example/mc服务器列表V2.4.js" "https://gitee.com/Dnyo666/
 
   <br>
     <img src="./img/mc-1.png" width="30%" height="20%">
+
+
+### #mc正版用户名验证进群.js
+
+#### 安装
+
+##### Github
+
+```
+curl -o "./plugins/example/mc正版用户名验证进群.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc正版用户名验证进群.js"
+```
+##### Gitee
+```
+curl -o "./plugins/example/mc正版用户名验证进群.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/mc正版用户名验证进群.js"
+```
+
+#### 简介
+
+可多群使用（如需多群分开配置，可复制一份，注意修改数据目录），通过用户填写答案自动判断是否为正版用户名，并通过或待定，可配置重复用户名是拒绝还是待定
+
+#### 效果图
+
+  <br>
+    <img src="./img/mc-2.png" width="30%" height="20%">
 
 ### #KimiV2.2.js
 
