@@ -4,7 +4,7 @@
 
 ## 目录
 
-[自动处理进群事件V2.9](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E8%BF%9B%E7%BE%A4%E4%BA%8B%E4%BB%B6v29js)
+[自动处理进群事件V3.0](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E8%BF%9B%E7%BE%A4%E4%BA%8B%E4%BB%B6v29js)
 
 [mc服务器列表V2.4.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%97%E8%A1%A8v24js)
 
@@ -16,23 +16,23 @@
 
 [百词斩V3.2.js](https://github.com/Dnyo666/Qxml-Yunzai-js?tab=readme-ov-file#%E7%99%BE%E8%AF%8D%E6%96%A9v32js)
 
-### #自动处理进群事件V2.9.js
+### #自动处理进群事件V3.0.js
 
 #### 安装
 
 ##### Github
 
 ```
-curl -o "./plugins/example/自动处理进群事件v2.9.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/自动处理进群事件v2.9.js"
+curl -o "./plugins/example/自动处理进群事件v3.0.js" "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/自动处理进群事件v3.0.js"
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v2.9.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v2.9.js"
+curl -o "./plugins/example/自动处理进群事件v3.9.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v3.0.js"
 ```
 
 #### 简介
 
-用于多个群管理多个答案自动判断进群，以及是否开启等级限制
+用于多个群管理多个答案自动判断进群，以及是否开启等级限制 新增多群单独管理以及被白名单管理
 
 #### 效果图
 
@@ -173,6 +173,7 @@ curl -o "./plugins/example/百词斩V3.2.js" "https://gitee.com/Dnyo666/Qxml-Yun
 |[飞舞](https://github.com/Catrong) | 自动处理进群事件v2.7.js-插件修改 |
 |[一只哒]() | 提供了自动处理进群事件v2.7.js意见 |
 |[千奈千祁](https://gitee.com/qiannqq/yunzai-plugin-JS) | 自动处理进群事件v2.7.js、kimi、glm（来源于他的通义千问）的源代码作者 |
+|[A1_Panda](https://github.com/A1Panda) | 重构自动处理进群事件v3.0.js 增加多群自定义功能、黑白名单以及管理功能 |
 --- 
 
 # 关于我
