@@ -27,7 +27,7 @@ curl -o "./plugins/example/自动处理进群事件v3.0.js" "https://raw.githubu
 ```
 ##### Gitee
 ```
-curl -o "./plugins/example/自动处理进群事件v3.9.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v3.0.js"
+curl -o "./plugins/example/自动处理进群事件v3.0.js" "https://gitee.com/Dnyo666/Qxml-Yunzai-js/raw/main/js/自动处理进群事件v3.0.js"
 ```
 
 #### 简介
